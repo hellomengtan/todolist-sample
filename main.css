@@ -1,23 +1,36 @@
 .container{
+  width: 300px;
   margin: 40px auto;
 }
 
-ul{
-  margin-top: 15px;
-  padding-left: 0px;
-}
-li{
-  clear: both;
-  position: relative;
-  list-style-type: none;
+
+
+
+input{
+  
 }
 
+
+
+li{
+  clear: both;
+  margin: 15px;
+  position: relative;
+}
 li .edit{
   display:none;
 }
 li.editing .edit{
   display:block;
 }
-li.editing .display{
-  display:none;
+button{
+  height: 30px;
+  float: right;
+}
+
+input.edit{
+  position: absolute;
+  top: 0;
+  left: 0;
+  
 }
